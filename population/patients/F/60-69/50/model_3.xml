@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<NEKTAR> 
+
+<GEOMETRY DIM="1" SPACE="2"> 
+
+	 <VERTEX> 
+		 <V ID="0"> 0.000    0.0    0.0 </V> 
+		 <V ID="1"> 5.281    0.0    0.0 </V> 
+
+		 <V ID="2"> 5.281    -16.0    0.0 </V> 
+		 <V ID="3"> 7.375    -16.0    0.0 </V> 
+
+		 <V ID="4"> 5.281    5.0    0.0 </V> 
+		 <V ID="5"> 8.832    5.0    0.0 </V> 
+
+		 <V ID="6"> 8.832    3.0    0.0 </V> 
+		 <V ID="7"> 12.383    3.0    0.0 </V> 
+
+		 <V ID="8"> 8.832    8.4    0.0 </V> 
+		 <V ID="9"> 18.665    8.4    0.0 </V> 
+
+		 <V ID="10"> 12.383    1.5    0.0 </V> 
+		 <V ID="11"> 27.952    1.5    0.0 </V> 
+
+		 <V ID="12"> 12.383    4.5    0.0 </V> 
+		 <V ID="13"> 56.542    4.5    0.0 </V> 
+
+		 <V ID="14"> 56.542    3.5    0.0 </V> 
+		 <V ID="15"> 81.125    3.5    0.0 </V> 
+
+		 <V ID="16"> 56.542    6.0    0.0 </V> 
+		 <V ID="17"> 63.552    6.0    0.0 </V> 
+
+		 <V ID="18"> 63.552    5.0    0.0 </V> 
+		 <V ID="19"> 71.838    5.0    0.0 </V> 
+
+		 <V ID="20"> 63.552    8.0    0.0 </V> 
+		 <V ID="21"> 81.489    8.0    0.0 </V> 
+
+		 <V ID="22"> 18.665    6.5    0.0 </V> 
+		 <V ID="23"> 37.330    6.5    0.0 </V> 
+
+		 <V ID="24"> 18.665    12.0    0.0 </V> 
+		 <V ID="25"> 35.691    12.0    0.0 </V> 
+
+		 <V ID="26"> 7.375    -30.0    0.0 </V> 
+		 <V ID="27"> 11.472    -30.0    0.0 </V> 
+
+		 <V ID="28"> 7.375    -7.0    0.0 </V> 
+		 <V ID="29"> 21.943    -7.0    0.0 </V> 
+
+		 <V ID="30"> 21.943    -9.0    0.0 </V> 
+		 <V ID="31"> 40.608    -9.0    0.0 </V> 
+
+		 <V ID="32"> 21.943    -4.0    0.0 </V> 
+		 <V ID="33"> 38.969    -4.0    0.0 </V> 
+
+		 <V ID="34"> 11.472    -36.0    0.0 </V> 
+		 <V ID="35"> 16.935    -36.0    0.0 </V> 
+
+		 <V ID="36"> 11.472    -25.0    0.0 </V> 
+		 <V ID="37"> 15.023    -25.0    0.0 </V> 
+
+		 <V ID="38"> 15.023    -28.0    0.0 </V> 
+		 <V ID="39"> 30.501    -28.0    0.0 </V> 
+
+		 <V ID="40"> 15.023    -22.5    0.0 </V> 
+		 <V ID="41"> 59.182    -22.5    0.0 </V> 
+
+		 <V ID="42"> 59.182    -25.0    0.0 </V> 
+		 <V ID="43"> 83.765    -25.0    0.0 </V> 
+
+		 <V ID="44"> 59.182    -20.0    0.0 </V> 
+		 <V ID="45"> 66.193    -20.0    0.0 </V> 
+
+		 <V ID="46"> 66.193    -22.0    0.0 </V> 
+		 <V ID="47"> 74.478    -22.0    0.0 </V> 
+
+		 <V ID="48"> 66.193    -15.5    0.0 </V> 
+		 <V ID="49"> 84.129    -15.5    0.0 </V> 
+
+		 <V ID="50"> 16.935    -32.0    0.0 </V> 
+		 <V ID="51"> 25.312    -32.0    0.0 </V> 
+
+		 <V ID="52"> 16.935    -42.0    0.0 </V> 
+		 <V ID="53"> 27.861    -42.0    0.0 </V> 
+
+		 <V ID="54"> 27.861    -30.0    0.0 </V> 
+		 <V ID="55"> 33.415    -30.0    0.0 </V> 
+
+		 <V ID="56"> 27.861    -48.0    0.0 </V> 
+		 <V ID="57"> 29.955    -48.0    0.0 </V> 
+
+		 <V ID="58"> 29.955    -55.0    0.0 </V> 
+		 <V ID="59"> 32.049    -55.0    0.0 </V> 
+
+		 <V ID="60"> 29.955    -45.0    0.0 </V> 
+		 <V ID="61"> 36.875    -45.0    0.0 </V> 
+
+		 <V ID="62"> 32.049    -60.0    0.0 </V> 
+		 <V ID="63"> 39.515    -60.0    0.0 </V> 
+
+		 <V ID="64"> 32.049    -50.0    0.0 </V> 
+		 <V ID="65"> 38.605    -50.0    0.0 </V> 
+
+		 <V ID="66"> 33.415    -28.0    0.0 </V> 
+		 <V ID="67"> 39.606    -28.0    0.0 </V> 
+
+		 <V ID="68"> 33.415    -32.0    0.0 </V> 
+		 <V ID="69"> 35.509    -32.0    0.0 </V> 
+
+		 <V ID="70"> 35.509    -30.0    0.0 </V> 
+		 <V ID="71"> 38.878    -30.0    0.0 </V> 
+
+		 <V ID="72"> 35.509    -35.0    0.0 </V> 
+		 <V ID="73"> 37.603    -35.0    0.0 </V> 
+
+		 <V ID="74"> 37.603    -33.0    0.0 </V> 
+		 <V ID="75"> 40.972    -33.0    0.0 </V> 
+
+		 <V ID="76"> 37.603    -36.0    0.0 </V> 
+		 <V ID="77"> 48.711    -36.0    0.0 </V> 
+
+		 <V ID="78"> 48.711    -38.0    0.0 </V> 
+		 <V ID="79"> 53.992    -38.0    0.0 </V> 
+
+		 <V ID="80"> 48.711    -34.0    0.0 </V> 
+		 <V ID="81"> 50.805    -34.0    0.0 </V> 
+
+		 <V ID="82"> 50.805    -32.0    0.0 </V> 
+		 <V ID="83"> 56.997    -32.0    0.0 </V> 
+
+		 <V ID="84"> 50.805    -35.0    0.0 </V> 
+		 <V ID="85"> 56.997    -35.0    0.0 </V> 
+
+		 <V ID="86"> 56.997    -30.0    0.0 </V> 
+		 <V ID="87"> 72.111    -30.0    0.0 </V> 
+
+		 <V ID="88"> 56.997    -34.0    0.0 </V> 
+		 <V ID="89"> 62.278    -34.0    0.0 </V> 
+
+		 <V ID="90"> 72.111    -29.0    0.0 </V> 
+		 <V ID="91"> 118.455    -29.0    0.0 </V> 
+
+		 <V ID="92"> 72.111    -33.0    0.0 </V> 
+		 <V ID="93"> 85.313    -33.0    0.0 </V> 
+
+		 <V ID="94"> 118.455    -30.0    0.0 </V> 
+		 <V ID="95"> 152.052    -30.0    0.0 </V> 
+
+		 <V ID="96"> 118.455    -28.0    0.0 </V> 
+		 <V ID="97"> 154.693    -28.0    0.0 </V> 
+
+		 <V ID="98"> 56.997    -35.5    0.0 </V> 
+		 <V ID="99"> 72.111    -35.5    0.0 </V> 
+
+		 <V ID="100"> 56.997    -37.0    0.0 </V> 
+		 <V ID="101"> 62.278    -37.0    0.0 </V> 
+
+		 <V ID="102"> 72.111    -39.0    0.0 </V> 
+		 <V ID="103"> 118.455    -39.0    0.0 </V> 
+
+		 <V ID="104"> 72.111    -34.0    0.0 </V> 
+		 <V ID="105"> 85.313    -34.0    0.0 </V> 
+
+		 <V ID="106"> 118.455    -37.5    0.0 </V> 
+		 <V ID="107"> 152.052    -37.5    0.0 </V> 
+
+		 <V ID="108"> 118.455    -45.0    0.0 </V> 
+		 <V ID="109"> 154.693    -45.0    0.0 </V> 
+	 </VERTEX> 
+
+	 <ELEMENT> 
+		 <S ID="0"> 0 1 </S> 
+		 <S ID="1"> 1 2 </S> 
+		 <S ID="2"> 1 4 </S> 
+		 <S ID="3"> 2 3 </S> 
+		 <S ID="4"> 4 5 </S> 
+		 <S ID="5"> 5 6 </S> 
+		 <S ID="6"> 5 8 </S> 
+		 <S ID="7"> 6 7 </S> 
+		 <S ID="8"> 8 9 </S> 
+		 <S ID="9"> 7 10 </S> 
+		 <S ID="10"> 7 12 </S> 
+		 <S ID="11"> 10 11 </S> 
+		 <S ID="12"> 12 13 </S> 
+		 <S ID="13"> 13 14 </S> 
+		 <S ID="14"> 13 16 </S> 
+		 <S ID="15"> 14 15 </S> 
+		 <S ID="16"> 16 17 </S> 
+		 <S ID="17"> 17 18 </S> 
+		 <S ID="18"> 17 20 </S> 
+		 <S ID="19"> 18 19 </S> 
+		 <S ID="20"> 20 21 </S> 
+		 <S ID="21"> 9 22 </S> 
+		 <S ID="22"> 9 24 </S> 
+		 <S ID="23"> 22 23 </S> 
+		 <S ID="24"> 24 25 </S> 
+		 <S ID="25"> 3 26 </S> 
+		 <S ID="26"> 3 28 </S> 
+		 <S ID="27"> 26 27 </S> 
+		 <S ID="28"> 28 29 </S> 
+		 <S ID="29"> 29 30 </S> 
+		 <S ID="30"> 29 32 </S> 
+		 <S ID="31"> 30 31 </S> 
+		 <S ID="32"> 32 33 </S> 
+		 <S ID="33"> 27 34 </S> 
+		 <S ID="34"> 27 36 </S> 
+		 <S ID="35"> 34 35 </S> 
+		 <S ID="36"> 36 37 </S> 
+		 <S ID="37"> 37 38 </S> 
+		 <S ID="38"> 37 40 </S> 
+		 <S ID="39"> 38 39 </S> 
+		 <S ID="40"> 40 41 </S> 
+		 <S ID="41"> 41 42 </S> 
+		 <S ID="42"> 41 44 </S> 
+		 <S ID="43"> 42 43 </S> 
+		 <S ID="44"> 44 45 </S> 
+		 <S ID="45"> 45 46 </S> 
+		 <S ID="46"> 45 48 </S> 
+		 <S ID="47"> 46 47 </S> 
+		 <S ID="48"> 48 49 </S> 
+		 <S ID="49"> 35 50 </S> 
+		 <S ID="50"> 35 52 </S> 
+		 <S ID="51"> 50 51 </S> 
+		 <S ID="52"> 52 53 </S> 
+		 <S ID="53"> 53 54 </S> 
+		 <S ID="54"> 53 56 </S> 
+		 <S ID="55"> 54 55 </S> 
+		 <S ID="56"> 56 57 </S> 
+		 <S ID="57"> 57 58 </S> 
+		 <S ID="58"> 57 60 </S> 
+		 <S ID="59"> 58 59 </S> 
+		 <S ID="60"> 60 61 </S> 
+		 <S ID="61"> 59 62 </S> 
+		 <S ID="62"> 59 64 </S> 
+		 <S ID="63"> 62 63 </S> 
+		 <S ID="64"> 64 65 </S> 
+		 <S ID="65"> 55 66 </S> 
+		 <S ID="66"> 55 68 </S> 
+		 <S ID="67"> 66 67 </S> 
+		 <S ID="68"> 68 69 </S> 
+		 <S ID="69"> 69 70 </S> 
+		 <S ID="70"> 69 72 </S> 
+		 <S ID="71"> 70 71 </S> 
+		 <S ID="72"> 72 73 </S> 
+		 <S ID="73"> 73 74 </S> 
+		 <S ID="74"> 73 76 </S> 
+		 <S ID="75"> 74 75 </S> 
+		 <S ID="76"> 76 77 </S> 
+		 <S ID="77"> 77 78 </S> 
+		 <S ID="78"> 77 80 </S> 
+		 <S ID="79"> 78 79 </S> 
+		 <S ID="80"> 80 81 </S> 
+		 <S ID="81"> 81 82 </S> 
+		 <S ID="82"> 81 84 </S> 
+		 <S ID="83"> 82 83 </S> 
+		 <S ID="84"> 84 85 </S> 
+		 <S ID="85"> 83 86 </S> 
+		 <S ID="86"> 83 88 </S> 
+		 <S ID="87"> 86 87 </S> 
+		 <S ID="88"> 88 89 </S> 
+		 <S ID="89"> 87 90 </S> 
+		 <S ID="90"> 87 92 </S> 
+		 <S ID="91"> 90 91 </S> 
+		 <S ID="92"> 92 93 </S> 
+		 <S ID="93"> 91 94 </S> 
+		 <S ID="94"> 91 96 </S> 
+		 <S ID="95"> 94 95 </S> 
+		 <S ID="96"> 96 97 </S> 
+		 <S ID="97"> 85 98 </S> 
+		 <S ID="98"> 85 100 </S> 
+		 <S ID="99"> 98 99 </S> 
+		 <S ID="100"> 100 101 </S> 
+		 <S ID="101"> 99 102 </S> 
+		 <S ID="102"> 99 104 </S> 
+		 <S ID="103"> 102 103 </S> 
+		 <S ID="104"> 104 105 </S> 
+		 <S ID="105"> 103 106 </S> 
+		 <S ID="106"> 103 108 </S> 
+		 <S ID="107"> 106 107 </S> 
+		 <S ID="108"> 108 109 </S> 
+	 </ELEMENT> 
+
+	 <COMPOSITE> 
+		 <C ID="0"> S[0] </C> 
+		 <C ID="1"> V[0] </C> 
+		 <C ID="2"> V[1] </C> 
+
+		 <C ID="3"> S[1,3] </C> 
+		 <C ID="4"> V[2] </C> 
+		 <C ID="5"> V[3] </C> 
+
+		 <C ID="6"> S[2,4] </C> 
+		 <C ID="7"> V[4] </C> 
+		 <C ID="8"> V[5] </C> 
+
+		 <C ID="9"> S[5,7] </C> 
+		 <C ID="10"> V[6] </C> 
+		 <C ID="11"> V[7] </C> 
+
+		 <C ID="12"> S[6,8] </C> 
+		 <C ID="13"> V[8] </C> 
+		 <C ID="14"> V[9] </C> 
+
+		 <C ID="15"> S[9,11] </C> 
+		 <C ID="16"> V[10] </C> 
+		 <C ID="17"> V[11] </C> 
+
+		 <C ID="18"> S[10,12] </C> 
+		 <C ID="19"> V[12] </C> 
+		 <C ID="20"> V[13] </C> 
+
+		 <C ID="21"> S[13,15] </C> 
+		 <C ID="22"> V[14] </C> 
+		 <C ID="23"> V[15] </C> 
+
+		 <C ID="24"> S[14,16] </C> 
+		 <C ID="25"> V[16] </C> 
+		 <C ID="26"> V[17] </C> 
+
+		 <C ID="27"> S[17,19] </C> 
+		 <C ID="28"> V[18] </C> 
+		 <C ID="29"> V[19] </C> 
+
+		 <C ID="30"> S[18,20] </C> 
+		 <C ID="31"> V[20] </C> 
+		 <C ID="32"> V[21] </C> 
+
+		 <C ID="33"> S[21,23] </C> 
+		 <C ID="34"> V[22] </C> 
+		 <C ID="35"> V[23] </C> 
+
+		 <C ID="36"> S[22,24] </C> 
+		 <C ID="37"> V[24] </C> 
+		 <C ID="38"> V[25] </C> 
+
+		 <C ID="39"> S[25,27] </C> 
+		 <C ID="40"> V[26] </C> 
+		 <C ID="41"> V[27] </C> 
+
+		 <C ID="42"> S[26,28] </C> 
+		 <C ID="43"> V[28] </C> 
+		 <C ID="44"> V[29] </C> 
+
+		 <C ID="45"> S[29,31] </C> 
+		 <C ID="46"> V[30] </C> 
+		 <C ID="47"> V[31] </C> 
+
+		 <C ID="48"> S[30,32] </C> 
+		 <C ID="49"> V[32] </C> 
+		 <C ID="50"> V[33] </C> 
+
+		 <C ID="51"> S[33,35] </C> 
+		 <C ID="52"> V[34] </C> 
+		 <C ID="53"> V[35] </C> 
+
+		 <C ID="54"> S[34,36] </C> 
+		 <C ID="55"> V[36] </C> 
+		 <C ID="56"> V[37] </C> 
+
+		 <C ID="57"> S[37,39] </C> 
+		 <C ID="58"> V[38] </C> 
+		 <C ID="59"> V[39] </C> 
+
+		 <C ID="60"> S[38,40] </C> 
+		 <C ID="61"> V[40] </C> 
+		 <C ID="62"> V[41] </C> 
+
+		 <C ID="63"> S[41,43] </C> 
+		 <C ID="64"> V[42] </C> 
+		 <C ID="65"> V[43] </C> 
+
+		 <C ID="66"> S[42,44] </C> 
+		 <C ID="67"> V[44] </C> 
+		 <C ID="68"> V[45] </C> 
+
+		 <C ID="69"> S[45,47] </C> 
+		 <C ID="70"> V[46] </C> 
+		 <C ID="71"> V[47] </C> 
+
+		 <C ID="72"> S[46,48] </C> 
+		 <C ID="73"> V[48] </C> 
+		 <C ID="74"> V[49] </C> 
+
+		 <C ID="75"> S[49,51] </C> 
+		 <C ID="76"> V[50] </C> 
+		 <C ID="77"> V[51] </C> 
+
+		 <C ID="78"> S[50,52] </C> 
+		 <C ID="79"> V[52] </C> 
+		 <C ID="80"> V[53] </C> 
+
+		 <C ID="81"> S[53,55] </C> 
+		 <C ID="82"> V[54] </C> 
+		 <C ID="83"> V[55] </C> 
+
+		 <C ID="84"> S[54,56] </C> 
+		 <C ID="85"> V[56] </C> 
+		 <C ID="86"> V[57] </C> 
+
+		 <C ID="87"> S[57,59] </C> 
+		 <C ID="88"> V[58] </C> 
+		 <C ID="89"> V[59] </C> 
+
+		 <C ID="90"> S[58,60] </C> 
+		 <C ID="91"> V[60] </C> 
+		 <C ID="92"> V[61] </C> 
+
+		 <C ID="93"> S[61,63] </C> 
+		 <C ID="94"> V[62] </C> 
+		 <C ID="95"> V[63] </C> 
+
+		 <C ID="96"> S[62,64] </C> 
+		 <C ID="97"> V[64] </C> 
+		 <C ID="98"> V[65] </C> 
+
+		 <C ID="99"> S[65,67] </C> 
+		 <C ID="100"> V[66] </C> 
+		 <C ID="101"> V[67] </C> 
+
+		 <C ID="102"> S[66,68] </C> 
+		 <C ID="103"> V[68] </C> 
+		 <C ID="104"> V[69] </C> 
+
+		 <C ID="105"> S[69,71] </C> 
+		 <C ID="106"> V[70] </C> 
+		 <C ID="107"> V[71] </C> 
+
+		 <C ID="108"> S[70,72] </C> 
+		 <C ID="109"> V[72] </C> 
+		 <C ID="110"> V[73] </C> 
+
+		 <C ID="111"> S[73,75] </C> 
+		 <C ID="112"> V[74] </C> 
+		 <C ID="113"> V[75] </C> 
+
+		 <C ID="114"> S[74,76] </C> 
+		 <C ID="115"> V[76] </C> 
+		 <C ID="116"> V[77] </C> 
+
+		 <C ID="117"> S[77,79] </C> 
+		 <C ID="118"> V[78] </C> 
+		 <C ID="119"> V[79] </C> 
+
+		 <C ID="120"> S[78,80] </C> 
+		 <C ID="121"> V[80] </C> 
+		 <C ID="122"> V[81] </C> 
+
+		 <C ID="123"> S[81,83] </C> 
+		 <C ID="124"> V[82] </C> 
+		 <C ID="125"> V[83] </C> 
+
+		 <C ID="126"> S[82,84] </C> 
+		 <C ID="127"> V[84] </C> 
+		 <C ID="128"> V[85] </C> 
+
+		 <C ID="129"> S[85,87] </C> 
+		 <C ID="130"> V[86] </C> 
+		 <C ID="131"> V[87] </C> 
+
+		 <C ID="132"> S[86,88] </C> 
+		 <C ID="133"> V[88] </C> 
+		 <C ID="134"> V[89] </C> 
+
+		 <C ID="135"> S[89,91] </C> 
+		 <C ID="136"> V[90] </C> 
+		 <C ID="137"> V[91] </C> 
+
+		 <C ID="138"> S[90,92] </C> 
+		 <C ID="139"> V[92] </C> 
+		 <C ID="140"> V[93] </C> 
+
+		 <C ID="141"> S[93,95] </C> 
+		 <C ID="142"> V[94] </C> 
+		 <C ID="143"> V[95] </C> 
+
+		 <C ID="144"> S[94,96] </C> 
+		 <C ID="145"> V[96] </C> 
+		 <C ID="146"> V[97] </C> 
+
+		 <C ID="147"> S[97,99] </C> 
+		 <C ID="148"> V[98] </C> 
+		 <C ID="149"> V[99] </C> 
+
+		 <C ID="150"> S[98,100] </C> 
+		 <C ID="151"> V[100] </C> 
+		 <C ID="152"> V[101] </C> 
+
+		 <C ID="153"> S[101,103] </C> 
+		 <C ID="154"> V[102] </C> 
+		 <C ID="155"> V[103] </C> 
+
+		 <C ID="156"> S[102,104] </C> 
+		 <C ID="157"> V[104] </C> 
+		 <C ID="158"> V[105] </C> 
+
+		 <C ID="159"> S[105,107] </C> 
+		 <C ID="160"> V[106] </C> 
+		 <C ID="161"> V[107] </C> 
+
+		 <C ID="162"> S[106,108] </C> 
+		 <C ID="163"> V[108] </C> 
+		 <C ID="164"> V[109] </C> 
+	 </COMPOSITE> 
+
+	 <DOMAIN> 
+		 <D ID="0">    C[0] </D> 
+		 <D ID="1">    C[3] </D> 
+		 <D ID="2">    C[6] </D> 
+		 <D ID="3">    C[9] </D> 
+		 <D ID="4">   C[12] </D> 
+		 <D ID="5">   C[15] </D> 
+		 <D ID="6">   C[18] </D> 
+		 <D ID="7">   C[21] </D> 
+		 <D ID="8">   C[24] </D> 
+		 <D ID="9">   C[27] </D> 
+		 <D ID="10">  C[30] </D> 
+		 <D ID="11">  C[33] </D> 
+		 <D ID="12">  C[36] </D> 
+		 <D ID="13">  C[39] </D> 
+		 <D ID="14">  C[42] </D> 
+		 <D ID="15">  C[45] </D> 
+		 <D ID="16">  C[48] </D> 
+		 <D ID="17">  C[51] </D> 
+		 <D ID="18">  C[54] </D> 
+		 <D ID="19">  C[57] </D> 
+		 <D ID="20">  C[60] </D> 
+		 <D ID="21">  C[63] </D> 
+		 <D ID="22">  C[66] </D> 
+		 <D ID="23">  C[69] </D> 
+		 <D ID="24">  C[72] </D> 
+		 <D ID="25">  C[75] </D> 
+		 <D ID="26">  C[78] </D> 
+		 <D ID="27">  C[81] </D> 
+		 <D ID="28">  C[84] </D> 
+		 <D ID="29">  C[87] </D> 
+		 <D ID="30">  C[90] </D> 
+		 <D ID="31">  C[93] </D> 
+		 <D ID="32">  C[96] </D> 
+		 <D ID="33">  C[99] </D> 
+		 <D ID="34"> C[102] </D> 
+		 <D ID="35"> C[105] </D> 
+		 <D ID="36"> C[108] </D> 
+		 <D ID="37"> C[111] </D> 
+		 <D ID="38"> C[114] </D> 
+		 <D ID="39"> C[117] </D> 
+		 <D ID="40"> C[120] </D> 
+		 <D ID="41"> C[123] </D> 
+		 <D ID="42"> C[126] </D> 
+		 <D ID="43"> C[129] </D> 
+		 <D ID="44"> C[132] </D> 
+		 <D ID="45"> C[135] </D> 
+		 <D ID="46"> C[138] </D> 
+		 <D ID="47"> C[141] </D> 
+		 <D ID="48"> C[144] </D> 
+		 <D ID="49"> C[147] </D> 
+		 <D ID="50"> C[150] </D> 
+		 <D ID="51"> C[153] </D> 
+		 <D ID="52"> C[156] </D> 
+		 <D ID="53"> C[159] </D> 
+		 <D ID="54"> C[162] </D> 
+	 </DOMAIN> 
+
+</GEOMETRY> 
+
+<EXPANSIONS> 
+	 <E COMPOSITE="C[0]"   NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[3]"   NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[6]"   NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[9]"   NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[12]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[15]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[18]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[21]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[24]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[27]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[30]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[33]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[36]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[39]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[42]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[45]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[48]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[51]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[54]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[57]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[60]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[63]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[66]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[69]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[72]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[75]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[78]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[81]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[84]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[87]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[90]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[93]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[96]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[99]"  NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[102]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[105]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[108]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[111]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[114]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[117]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[120]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[123]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[126]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[129]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[132]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[135]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[138]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[141]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[144]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[147]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[150]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[153]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[156]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[159]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+	 <E COMPOSITE="C[162]" NUMMODES="4" FIELDS="A, u" TYPE="MODIFIED" /> 
+</EXPANSIONS> 
+
+<CONDITIONS> 
+
+	 <PARAMETERS> 
+		 <P> TimeStep = 1e-06 </P> 
+		 <P> T = 0.6741573033707865 </P> 
+		 <P> FinTime = 3 </P> 
+		 <P> NumSteps = FinTime / TimeStep </P> 
+		 <P> IO_CheckSteps = NumSteps / 3000 </P> 
+		 <P> IO_InfoSteps = 1000 </P> 
+		 <P> omega = 2 * PI / T </P> 
+		 <P> rho = 0.00106 </P> 
+		 <P> neu = 0.5 </P> 
+		 <P> pext = 108.6910858993763 </P> 
+		 <P> pout = 14.577790294314493 </P> 
+
+		 <!--P> Age = 67 </P>
+		 <P> Sex = F </P>
+		 <P> EDV = 77.43607571664953 </P>
+		 <P> EF = 0.5746400490901611 </P>
+		 <P> SV = 44.49787035116491 </P>
+		 <P> LVET = 0.20062887368158794 </P>
+		 <P> HR = 89 </P>
+		 <P> CO = 3.9603104612536772 </P>
+		 <P> HF = 1 </P>
+		 <P> a_elas = 2.04536030246714 </P>
+		 <P> a_musc = 1.1566997748183534 </P>
+		 <P> D_elas = 1.253996341463684 </P>
+		 <P> D_musc = 1.1504179169245048 </P>
+		 <P> Phi_scale = 0.9526084798507867 </P>
+		 <P> PExt = 1.086910858993763 </P>
+		 <P> R_scale = 1.4844334831007633 </P>
+		 <P> C_scale = 1.0591504552531656 </P>
+		 <P> R_HF = 1.449032313912659 </P>
+		 <P> C_HF = 0.690115734755295 </P>
+		 <P> POut_scale = 1.093607673992085 </P-->
+	 </PARAMETERS> 
+
+	 <SOLVERINFO> 
+		 <I PROPERTY="EQTYPE" VALUE="PulseWavePropagation" /> 
+		 <I PROPERTY="Projection" VALUE="DisContinuous" /> 
+		 <I PROPERTY="TimeIntegrationMethod" VALUE="RungeKutta2_ImprovedEuler" /> 
+		 <I PROPERTY="UpwindTypePulse" VALUE="UpwindPulse" /> 
+		 <I PROPERTY="PressureArea" VALUE="Empirical" /> 
+		 <I PROPERTY="OutputExtraFields" VALUE="True" /> 
+	 </SOLVERINFO> 
+
+	 <VARIABLES> 
+		 <V ID="0"> A </V> 
+		 <V ID="1"> u </V> 
+	 </VARIABLES> 
+
+	 <BOUNDARYREGIONS> 
+		 <B ID="0"> C[1] </B> 
+		 <B ID="1"> C[17] </B> 
+		 <B ID="2"> C[23] </B> 
+		 <B ID="3"> C[29] </B> 
+		 <B ID="4"> C[32] </B> 
+		 <B ID="5"> C[35] </B> 
+		 <B ID="6"> C[38] </B> 
+		 <B ID="7"> C[47] </B> 
+		 <B ID="8"> C[50] </B> 
+		 <B ID="9"> C[59] </B> 
+		 <B ID="10"> C[65] </B> 
+		 <B ID="11"> C[71] </B> 
+		 <B ID="12"> C[74] </B> 
+		 <B ID="13"> C[77] </B> 
+		 <B ID="14"> C[92] </B> 
+		 <B ID="15"> C[95] </B> 
+		 <B ID="16"> C[98] </B> 
+		 <B ID="17"> C[101] </B> 
+		 <B ID="18"> C[107] </B> 
+		 <B ID="19"> C[113] </B> 
+		 <B ID="20"> C[119] </B> 
+		 <B ID="21"> C[134] </B> 
+		 <B ID="22"> C[140] </B> 
+		 <B ID="23"> C[143] </B> 
+		 <B ID="24"> C[146] </B> 
+		 <B ID="25"> C[152] </B> 
+		 <B ID="26"> C[158] </B> 
+		 <B ID="27"> C[161] </B> 
+		 <B ID="28"> C[164] </B> 
+	 </BOUNDARYREGIONS> 
+
+	 <BOUNDARYCONDITIONS> 
+
+		 <REGION REF="0">
+			 <D VAR="A" USERDEFINEDTYPE="Q-inflow" VALUE="0.5 * 127.83871873724787 * cos(0 * PI * t / T) + 0.0 * sin(0 * PI * t / T) + 
+                         0.006134280284661105 * cos(1  * PI * t / T) + -0.01354734258531262 * sin(1  * PI * t / T) +
+                         77.66705027850755 * cos(2  * PI * t / T) + 93.85486329381249 * sin(2  * PI * t / T) + 
+                         0.03713985313901187 * cos(3  * PI * t / T) + -0.009428033365792744 * sin(3  * PI * t / T) + 
+                         -17.825887541767752 * cos(4  * PI * t / T) + 93.60739041707488 * sin(4  * PI * t / T) + 
+                         0.03661205676625155 * cos(5  * PI * t / T) + 0.02658954054908945 * sin(5  * PI * t / T) + 
+                         -50.79735034017946 * cos(6  * PI * t / T) + 29.911721220979945 * sin(6  * PI * t / T) + 
+                         0.004895680612524492 * cos(7  * PI * t / T) + 0.03327916792663643 * sin(7  * PI * t / T) + 
+                         -24.65123511295739 * cos(8  * PI * t / T) + -3.531655746271111 * sin(8  * PI * t / T) + 
+                         -0.0025171484138095373 * cos(9  * PI * t / T) + 0.01443290461030784 * sin(9  * PI * t / T) + 
+                         -8.952893795101193 * cos(10 * PI * t / T) + 1.8534637539216432 * sin(10 * PI * t / T) + 
+                         0.00710955351273402 * cos(11 * PI * t / T) + 0.013871335143553262 * sin(11 * PI * t / T) + 
+                         -14.346523489260546 * cos(12 * PI * t / T) + 2.8386718683295618 * sin(12 * PI * t / T) + 
+                         -0.0028614902569731536 * cos(13 * PI * t / T) + 0.020621459762342066 * sin(13 * PI * t / T) + 
+                         -10.256197366643368 * cos(14 * PI * t / T) + -5.279307685138576 * sin(14 * PI * t / T) + 
+                         -0.009784304183474025 * cos(15 * PI * t / T) + 0.009611624851439649 * sin(15 * PI * t / T) + 
+                         -2.86232445471096 * cos(16 * PI * t / T) + -2.993715695773126 * sin(16 * PI * t / T) + 
+                         -0.000798794425176134 * cos(17 * PI * t / T) + 0.00636750393524966 * sin(17 * PI * t / T) + 
+                         -5.40773368309828 * cos(18 * PI * t / T) + -0.03616997224142078 * sin(18 * PI * t / T) + 
+                         -0.00492535395170585 * cos(19 * PI * t / T) + 0.014283019393805163 * sin(19 * PI * t / T) + 
+                         -5.210956723751182 * cos(20 * PI * t / T) + -4.626472929846791 * sin(20 * PI * t / T) + 
+                         -0.013565349656450258 * cos(21 * PI * t / T) + 0.005617495986951904 * sin(21 * PI * t / T) + 
+                         0.25673509719206344 * cos(22 * PI * t / T) + -3.9520166465425834 * sin(22 * PI * t / T) + 
+                         -0.0038509676340893655 * cos(23 * PI * t / T) + -0.0017370954907496628 * sin(23 * PI * t / T) + 
+                         -0.92717385202972 * cos(24 * PI * t / T) + 0.14713253067145507 * sin(24 * PI * t / T) + 
+                         -0.001518459544238889 * cos(25 * PI * t / T) + 0.008456570873835584 * sin(25 * PI * t / T) + 
+                         -3.3180266616550904 * cos(26 * PI * t / T) + -2.5640941485780173 * sin(26 * PI * t / T) + 
+                         -0.013854429278688973 * cos(27 * PI * t / T) + 0.005654635639590169 * sin(27 * PI * t / T) + 
+                         0.8552084066880746 * cos(28 * PI * t / T) + -4.285943972212862 * sin(28 * PI * t / T) + 
+                         -0.007938621180807359 * cos(29 * PI * t / T) + -0.0078049145027654036 * sin(29 * PI * t / T) + 
+                         2.0846001527084392 * cos(30 * PI * t / T) + -0.21903770374579046 * sin(30 * PI * t / T) + 
+                         0.003357155696912643 * cos(31 * PI * t / T) + -0.0013166223639274747 * sin(31 * PI * t / T) + 
+                         -1.2544217521349255 * cos(32 * PI * t / T) + 0.10701667718363005 * sin(32 * PI * t / T) + 
+                         -0.005538964950878435 * cos(33 * PI * t / T) + 0.005247777084846235 * sin(33 * PI * t / T) + 
+                         -0.1463269732353554 * cos(34 * PI * t / T) + -2.408190511597345 * sin(34 * PI * t / T) + 
+                         -0.007701862601727057 * cos(35 * PI * t / T) + -0.0055777434272038535 * sin(35 * PI * t / T) + 
+                         1.8204010798283725 * cos(36 * PI * t / T) + -0.47477342634289704 * sin(36 * PI * t / T) + 
+                         0.003057708325440656 * cos(37 * PI * t / T) + -0.0046848228943777125 * sin(37 * PI * t / T) + 
+                         -0.22167755320743754 * cos(38 * PI * t / T) + 0.7613658759672636 * sin(38 * PI * t / T) + 
+                         -0.0009348838114404309 * cos(39 * PI * t / T) + 0.003794248820357397 * sin(39 * PI * t / T) + 
+                         -0.3691011151745423 * cos(40 * PI * t / T) + -1.1764678266334478 * sin(40 * PI * t / T) + 
+                         -0.006066617134313336 * cos(41 * PI * t / T) + -0.003669602952098531 * sin(41 * PI * t / T) +   
+                         1.4445064989415695 * cos(42 * PI * t / T) + -0.3424403660048468 * sin(42 * PI * t / T) + 
+                         0.003685735439617899 * cos(43 * PI * t / T) + -0.005843918429899886 * sin(43 * PI * t / T) +   
+                         0.11487325681310143 * cos(44 * PI * t / T) + 1.2380621670944436 * sin(44 * PI * t / T) + 
+                         0.00341597330547343 * cos(45 * PI * t / T) + 0.004605704020889161 * sin(45 * PI * t / T) +   
+                         -0.9512388405262187 * cos(46 * PI * t / T) + -0.3857217184707775 * sin(46 * PI * t / T) + 
+                         -0.005587407653444473 * cos(47 * PI * t / T) + 0.0011327627577073895 * sin(47 * PI * t / T) +   
+                         0.6990464947032494 * cos(48 * PI * t / T) + -0.754991260745626 * sin(48 * PI * t / T) + 
+                         0.00039484871898214 * cos(49 * PI * t / T) + -0.005569568711606991 * sin(49 * PI * t / T) +   
+                         0.5153958691245691 * cos(50 * PI * t / T) + 0.7759943141108264 * sin(50 * PI * t / T) + 
+                         0.0046880361496841345 * cos(51 * PI * t / T) + 0.001956877984387545 * sin(51 * PI * t / T) +   
+                         -0.7487302422085228 * cos(52 * PI * t / T) + 0.13316693224682916 * sin(52 * PI * t / T) + 
+                         -0.003277610498270252 * cos(53 * PI * t / T) + 0.002901584200530816 * sin(53 * PI * t / T) +   
+                         0.24091255524070054 * cos(54 * PI * t / T) + -0.6487808164798714 * sin(54 * PI * t / T) + 
+                         -0.0007000072228784922 * cos(55 * PI * t / T) + -0.004398377281072767 * sin(55 * PI * t / T) +   
+                         0.5096296313676798 * cos(56 * PI * t / T) + 0.5396911423751101 * sin(56 * PI * t / T) + 
+                         0.005258243080173223 * cos(57 * PI * t / T) + 0.0009200674918526479 * sin(57 * PI * t / T) +   
+                         -0.7039895160180173 * cos(58 * PI * t / T) + 0.40052247485810694 * sin(58 * PI * t / T) + 
+                         -0.0016749332519366278 * cos(59 * PI * t / T) + 0.0051371277766086 * sin(59 * PI * t / T) +   
+                         -0.25896821351216054 * cos(60 * PI * t / T) + -0.6961623775955746 * sin(60 * PI * t / T) + 
+                         -0.003693866373044183 * cos(61 * PI * t / T) + -0.0027461892873887617 * sin(61 * PI * t / T) +  
+                         0.5740195213199749 * cos(62 * PI * t / T) + 0.047992971182640204 * sin(62 * PI * t / T) + 
+                         0.0039051823531116637 * cos(63 * PI * t / T) + -0.0019878627638986236 * sin(63 * PI * t / T) +  
+                         -0.31983722954569965 * cos(64 * PI * t / T) + 0.5522487113276845 * sin(64 * PI * t / T) + 
+                         0.0007571810408594032 * cos(65 * PI * t / T) + 0.00471516624532707 * sin(65 * PI * t / T) +  
+                         -0.48163435933072046 * cos(66 * PI * t / T) + -0.37205776273967417 * sin(66 * PI * t / T) + 
+                         -0.004327492235076619 * cos(67 * PI * t / T) + 9.592294226935684e-05 * sin(67 * PI * t / T) +  
+                         0.36977565929885253 * cos(68 * PI * t / T) + -0.27458702755334397 * sin(68 * PI * t / T) + 
+                         0.0011768354063591308 * cos(69 * PI * t / T) + -0.0031515768393816793 * sin(69 * PI * t / T) +  
+                         0.06427646251597438 * cos(70 * PI * t / T) + 0.4370396042292216 * sin(70 * PI * t / T)"/> 
+			 <D VAR="u" USERDEFINEDTYPE="Q-inflow" VALUE="1.0" /> 
+		 </REGION> 
+
+		 <REGION REF="1"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="97.00974302749842" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.006593046279683862" /> 
+		 </REGION> 
+
+		 <REGION REF="2"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="85.17928656073032" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.0072143422151307885" /> 
+		 </REGION> 
+
+		 <REGION REF="3"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="1359.426997635898" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.0023755432825911917" /> 
+		 </REGION> 
+
+		 <REGION REF="4"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="85.17928656073032" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.005620900874808081" /> 
+		 </REGION> 
+
+		 <REGION REF="5"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="40.43865119549823" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.018858158981800845" /> 
+		 </REGION> 
+
+		 <REGION REF="6"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="223.70317682616044" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.014107072416618462" /> 
+		 </REGION> 
+
+		 <REGION REF="7"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="40.43865119549823" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.013814697858761084" /> 
+		 </REGION> 
+
+		 <REGION REF="8"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="223.70317682616044" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.012645199627331575" /> 
+		 </REGION> 
+
+		 <REGION REF="9"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="97.00974302749842" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.006593046279683862" /> 
+		 </REGION> 
+
+		 <REGION REF="10"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="85.17928656073032" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.006198340626576402" /> 
+		 </REGION> 
+
+		 <REGION REF="11"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="1359.426997635898" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.002024693813162339" /> 
+		 </REGION> 
+
+		 <REGION REF="12"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="85.17928656073032" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.009502173130364767" /> 
+		 </REGION> 
+
+		 <REGION REF="13"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="129.05952509201563" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.07601738504291813" /> 
+		 </REGION> 
+
+		 <REGION REF="14"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="58.50698470838042" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.014984196090190595" /> 
+		 </REGION> 
+
+		 <REGION REF="15"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="87.33027864559725" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.006000987800022672" /> 
+		 </REGION> 
+
+		 <REGION REF="16"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="37.42726227668453" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.010233109525008211" /> 
+		 </REGION> 
+
+		 <REGION REF="17"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="15.013924752371153" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.035158040582349635" /> 
+		 </REGION> 
+
+		 <REGION REF="18"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="18.240412879671545" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.016884630716263546" /> 
+		 </REGION> 
+
+		 <REGION REF="19"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="18.240412879671545" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.016884630716263546" /> 
+		 </REGION> 
+
+		 <REGION REF="20"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="110.99119157913346" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.009721454048757799" /> 
+		 </REGION> 
+
+		 <REGION REF="21"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="128.19912825806887" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.010013828606615177" /> 
+		 </REGION> 
+
+		 <REGION REF="22"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="77.00551663823599" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.009282892211971733" /> 
+		 </REGION> 
+
+		 <REGION REF="23"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="228.0051609958943" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.005430857412200786" /> 
+		 </REGION> 
+
+		 <REGION REF="24"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="228.0051609958943" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.0037497037045208658" /> 
+		 </REGION> 
+
+		 <REGION REF="25"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="128.19912825806887" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.010013828606615177" /> 
+		 </REGION> 
+
+		 <REGION REF="26"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="77.00551663823599" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.009282892211971733" /> 
+		 </REGION> 
+
+		 <REGION REF="27"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="228.0051609958943" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.005430857412200786" /> 
+		 </REGION> 
+
+		 <REGION REF="28"> 
+			 <D VAR="A" USERDEFINEDTYPE="RCR-terminal"  VALUE="228.0051609958943" /> 
+			 <D VAR="u" USERDEFINEDTYPE="RCR-terminal"  VALUE="0.0037497037045208658" /> 
+		 </REGION> 
+
+	 </BOUNDARYCONDITIONS> 
+
+		<FUNCTION NAME="InitialConditions"> 
+				<E VAR="A" DOMAIN="0"  VALUE="11.3388 * (1 - 0.00124786 * (x - 0))" /> 
+				<E VAR="u" DOMAIN="0"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="1"  VALUE="8.22095 * (1 - 0.0398511 * (x - 5.28085))" /> 
+				<E VAR="u" DOMAIN="1"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="2"  VALUE="5.34329 * (1 - 0.0588373 * (x - 5.28085))" /> 
+				<E VAR="u" DOMAIN="2"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="3"  VALUE="1.71968 * (1 - 0.107815 * (x - 8.83177))" /> 
+				<E VAR="u" DOMAIN="3"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="4"  VALUE="1.57703 * (1 - 0.0743463 * (x - 8.83177))" /> 
+				<E VAR="u" DOMAIN="4"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="5"  VALUE="0.17928 * (1 - 0.0275288 * (x - 12.3827))" /> 
+				<E VAR="u" DOMAIN="5"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="6"  VALUE="0.859042 * (1 - 0.0150187 * (x - 12.3827))" /> 
+				<E VAR="u" DOMAIN="6"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="7"  VALUE="0.17928 * (1 - 0.0121619 * (x - 56.5415))" /> 
+				<E VAR="u" DOMAIN="7"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="8"  VALUE="0.17928 * (1 - 0.022267 * (x - 56.5415))" /> 
+				<E VAR="u" DOMAIN="8"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="9"  VALUE="0.0576222 * (1 - 0.0321574 * (x - 63.5523))" /> 
+				<E VAR="u" DOMAIN="9"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="10"  VALUE="0.133682 * (1 - 0.0130297 * (x - 63.5523))" /> 
+				<E VAR="u" DOMAIN="10"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="11"  VALUE="0.425558 * (1 - 0.0231994 * (x - 18.6651))" /> 
+				<E VAR="u" DOMAIN="11"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="12"  VALUE="0.0815734 * (1 - 0.0376439 * (x - 18.6651))" /> 
+				<E VAR="u" DOMAIN="12"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="13"  VALUE="5.97761 * (1 - 0.0131313 * (x - 7.37498))" /> 
+				<E VAR="u" DOMAIN="13"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="14"  VALUE="1.23504 * (1 - 0.0513456 * (x - 7.37498))" /> 
+				<E VAR="u" DOMAIN="14"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="15"  VALUE="0.242376 * (1 - 0.0214578 * (x - 21.9429))" /> 
+				<E VAR="u" DOMAIN="15"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="16"  VALUE="0.0479308 * (1 - 0.0347065 * (x - 21.9429))" /> 
+				<E VAR="u" DOMAIN="16"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="17"  VALUE="5.24103 * (1 - 0.0190272 * (x - 11.4722))" /> 
+				<E VAR="u" DOMAIN="17"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="18"  VALUE="1.57703 * (1 - 0.115834 * (x - 11.4722))" /> 
+				<E VAR="u" DOMAIN="18"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="19"  VALUE="0.17928 * (1 - 0.0276907 * (x - 15.0231))" /> 
+				<E VAR="u" DOMAIN="19"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="20"  VALUE="0.859042 * (1 - 0.0150187 * (x - 15.0231))" /> 
+				<E VAR="u" DOMAIN="20"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="21"  VALUE="0.160062 * (1 - 0.0146441 * (x - 59.182))" /> 
+				<E VAR="u" DOMAIN="21"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="22"  VALUE="0.242376 * (1 - 0 * (x - 59.182))" /> 
+				<E VAR="u" DOMAIN="22"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="23"  VALUE="0.0422694 * (1 - 0 * (x - 66.1928))" /> 
+				<E VAR="u" DOMAIN="23"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="24"  VALUE="0.219942 * (1 - 0.010307 * (x - 66.1928))" /> 
+				<E VAR="u" DOMAIN="24"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="25"  VALUE="2.08722 * (1 - 0.0518154 * (x - 16.9351))" /> 
+				<E VAR="u" DOMAIN="25"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="26"  VALUE="3.56928 * (1 - 0.035505 * (x - 16.9351))" /> 
+				<E VAR="u" DOMAIN="26"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="27"  VALUE="1.96076 * (1 - 0 * (x - 27.861))" /> 
+				<E VAR="u" DOMAIN="27"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="28"  VALUE="0.796367 * (1 - 0.104205 * (x - 27.861))" /> 
+				<E VAR="u" DOMAIN="28"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="29"  VALUE="0.3535 * (1 - 0.0537361 * (x - 29.9552))" /> 
+				<E VAR="u" DOMAIN="29"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="30"  VALUE="0.381797 * (1 - 0.0485835 * (x - 29.9552))" /> 
+				<E VAR="u" DOMAIN="30"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="31"  VALUE="0.133682 * (1 - 0.0157895 * (x - 32.0493))" /> 
+				<E VAR="u" DOMAIN="31"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="32"  VALUE="0.230489 * (1 - 0.0204508 * (x - 32.0493))" /> 
+				<E VAR="u" DOMAIN="32"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="33"  VALUE="0.816326 * (1 - 0.0309382 * (x - 33.415))" /> 
+				<E VAR="u" DOMAIN="33"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="34"  VALUE="1.71968 * (1 - 0.0160501 * (x - 33.415))" /> 
+				<E VAR="u" DOMAIN="34"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="35"  VALUE="0.3535 * (1 - 0 * (x - 35.5092))" /> 
+				<E VAR="u" DOMAIN="35"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="36"  VALUE="1.80823 * (1 - 0 * (x - 35.5092))" /> 
+				<E VAR="u" DOMAIN="36"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="37"  VALUE="0.3535 * (1 - 0 * (x - 37.6033))" /> 
+				<E VAR="u" DOMAIN="37"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="38"  VALUE="1.74895 * (1 - 0.00884931 * (x - 37.6033))" /> 
+				<E VAR="u" DOMAIN="38"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="39"  VALUE="0.289316 * (1 - 0.102397 * (x - 48.7113))" /> 
+				<E VAR="u" DOMAIN="39"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="40"  VALUE="1.5217 * (1 - 0.0337961 * (x - 48.7113))" /> 
+				<E VAR="u" DOMAIN="40"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="41"  VALUE="0.68704 * (1 - 0.0348385 * (x - 50.8054))" /> 
+				<E VAR="u" DOMAIN="41"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="42"  VALUE="0.68704 * (1 - 0.0348385 * (x - 50.8054))" /> 
+				<E VAR="u" DOMAIN="42"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="43"  VALUE="0.451411 * (1 - 0.00607834 * (x - 56.9968))" /> 
+				<E VAR="u" DOMAIN="43"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="44"  VALUE="0.176439 * (1 - 0 * (x - 56.9968))" /> 
+				<E VAR="u" DOMAIN="44"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="45"  VALUE="0.297515 * (1 - 0.0100525 * (x - 72.111))" /> 
+				<E VAR="u" DOMAIN="45"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="46"  VALUE="0.176439 * (1 - 0.0109697 * (x - 72.111))" /> 
+				<E VAR="u" DOMAIN="46"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="47"  VALUE="0.105775 * (1 - 0.00550385 * (x - 118.455))" /> 
+				<E VAR="u" DOMAIN="47"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="48"  VALUE="0.074657 * (1 - 0.00601484 * (x - 118.455))" /> 
+				<E VAR="u" DOMAIN="48"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="49"  VALUE="0.451411 * (1 - 0.00607834 * (x - 56.9968))" /> 
+				<E VAR="u" DOMAIN="49"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="50"  VALUE="0.176439 * (1 - 0 * (x - 56.9968))" /> 
+				<E VAR="u" DOMAIN="50"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="51"  VALUE="0.297515 * (1 - 0.0100525 * (x - 72.111))" /> 
+				<E VAR="u" DOMAIN="51"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="52"  VALUE="0.176439 * (1 - 0.0109697 * (x - 72.111))" /> 
+				<E VAR="u" DOMAIN="52"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="53"  VALUE="0.105775 * (1 - 0.00550385 * (x - 118.455))" /> 
+				<E VAR="u" DOMAIN="53"  VALUE="0.0" /> 
+				<E VAR="A" DOMAIN="54"  VALUE="0.074657 * (1 - 0.00601484 * (x - 118.455))" /> 
+				<E VAR="u" DOMAIN="54"  VALUE="0.0" /> 
+		</FUNCTION> 
+
+		<FUNCTION NAME="A_0"> 
+				<E VAR="A_0" DOMAIN="0"  VALUE="11.3388 * (1 - 0.00124786 * (x - 0))" /> 
+				<E VAR="A_0" DOMAIN="1"  VALUE="8.22095 * (1 - 0.0398511 * (x - 5.28085))" /> 
+				<E VAR="A_0" DOMAIN="2"  VALUE="5.34329 * (1 - 0.0588373 * (x - 5.28085))" /> 
+				<E VAR="A_0" DOMAIN="3"  VALUE="1.71968 * (1 - 0.107815 * (x - 8.83177))" /> 
+				<E VAR="A_0" DOMAIN="4"  VALUE="1.57703 * (1 - 0.0743463 * (x - 8.83177))" /> 
+				<E VAR="A_0" DOMAIN="5"  VALUE="0.17928 * (1 - 0.0275288 * (x - 12.3827))" /> 
+				<E VAR="A_0" DOMAIN="6"  VALUE="0.859042 * (1 - 0.0150187 * (x - 12.3827))" /> 
+				<E VAR="A_0" DOMAIN="7"  VALUE="0.17928 * (1 - 0.0121619 * (x - 56.5415))" /> 
+				<E VAR="A_0" DOMAIN="8"  VALUE="0.17928 * (1 - 0.022267 * (x - 56.5415))" /> 
+				<E VAR="A_0" DOMAIN="9"  VALUE="0.0576222 * (1 - 0.0321574 * (x - 63.5523))" /> 
+				<E VAR="A_0" DOMAIN="10"  VALUE="0.133682 * (1 - 0.0130297 * (x - 63.5523))" /> 
+				<E VAR="A_0" DOMAIN="11"  VALUE="0.425558 * (1 - 0.0231994 * (x - 18.6651))" /> 
+				<E VAR="A_0" DOMAIN="12"  VALUE="0.0815734 * (1 - 0.0376439 * (x - 18.6651))" /> 
+				<E VAR="A_0" DOMAIN="13"  VALUE="5.97761 * (1 - 0.0131313 * (x - 7.37498))" /> 
+				<E VAR="A_0" DOMAIN="14"  VALUE="1.23504 * (1 - 0.0513456 * (x - 7.37498))" /> 
+				<E VAR="A_0" DOMAIN="15"  VALUE="0.242376 * (1 - 0.0214578 * (x - 21.9429))" /> 
+				<E VAR="A_0" DOMAIN="16"  VALUE="0.0479308 * (1 - 0.0347065 * (x - 21.9429))" /> 
+				<E VAR="A_0" DOMAIN="17"  VALUE="5.24103 * (1 - 0.0190272 * (x - 11.4722))" /> 
+				<E VAR="A_0" DOMAIN="18"  VALUE="1.57703 * (1 - 0.115834 * (x - 11.4722))" /> 
+				<E VAR="A_0" DOMAIN="19"  VALUE="0.17928 * (1 - 0.0276907 * (x - 15.0231))" /> 
+				<E VAR="A_0" DOMAIN="20"  VALUE="0.859042 * (1 - 0.0150187 * (x - 15.0231))" /> 
+				<E VAR="A_0" DOMAIN="21"  VALUE="0.160062 * (1 - 0.0146441 * (x - 59.182))" /> 
+				<E VAR="A_0" DOMAIN="22"  VALUE="0.242376 * (1 - 0 * (x - 59.182))" /> 
+				<E VAR="A_0" DOMAIN="23"  VALUE="0.0422694 * (1 - 0 * (x - 66.1928))" /> 
+				<E VAR="A_0" DOMAIN="24"  VALUE="0.219942 * (1 - 0.010307 * (x - 66.1928))" /> 
+				<E VAR="A_0" DOMAIN="25"  VALUE="2.08722 * (1 - 0.0518154 * (x - 16.9351))" /> 
+				<E VAR="A_0" DOMAIN="26"  VALUE="3.56928 * (1 - 0.035505 * (x - 16.9351))" /> 
+				<E VAR="A_0" DOMAIN="27"  VALUE="1.96076 * (1 - 0 * (x - 27.861))" /> 
+				<E VAR="A_0" DOMAIN="28"  VALUE="0.796367 * (1 - 0.104205 * (x - 27.861))" /> 
+				<E VAR="A_0" DOMAIN="29"  VALUE="0.3535 * (1 - 0.0537361 * (x - 29.9552))" /> 
+				<E VAR="A_0" DOMAIN="30"  VALUE="0.381797 * (1 - 0.0485835 * (x - 29.9552))" /> 
+				<E VAR="A_0" DOMAIN="31"  VALUE="0.133682 * (1 - 0.0157895 * (x - 32.0493))" /> 
+				<E VAR="A_0" DOMAIN="32"  VALUE="0.230489 * (1 - 0.0204508 * (x - 32.0493))" /> 
+				<E VAR="A_0" DOMAIN="33"  VALUE="0.816326 * (1 - 0.0309382 * (x - 33.415))" /> 
+				<E VAR="A_0" DOMAIN="34"  VALUE="1.71968 * (1 - 0.0160501 * (x - 33.415))" /> 
+				<E VAR="A_0" DOMAIN="35"  VALUE="0.3535 * (1 - 0 * (x - 35.5092))" /> 
+				<E VAR="A_0" DOMAIN="36"  VALUE="1.80823 * (1 - 0 * (x - 35.5092))" /> 
+				<E VAR="A_0" DOMAIN="37"  VALUE="0.3535 * (1 - 0 * (x - 37.6033))" /> 
+				<E VAR="A_0" DOMAIN="38"  VALUE="1.74895 * (1 - 0.00884931 * (x - 37.6033))" /> 
+				<E VAR="A_0" DOMAIN="39"  VALUE="0.289316 * (1 - 0.102397 * (x - 48.7113))" /> 
+				<E VAR="A_0" DOMAIN="40"  VALUE="1.5217 * (1 - 0.0337961 * (x - 48.7113))" /> 
+				<E VAR="A_0" DOMAIN="41"  VALUE="0.68704 * (1 - 0.0348385 * (x - 50.8054))" /> 
+				<E VAR="A_0" DOMAIN="42"  VALUE="0.68704 * (1 - 0.0348385 * (x - 50.8054))" /> 
+				<E VAR="A_0" DOMAIN="43"  VALUE="0.451411 * (1 - 0.00607834 * (x - 56.9968))" /> 
+				<E VAR="A_0" DOMAIN="44"  VALUE="0.176439 * (1 - 0 * (x - 56.9968))" /> 
+				<E VAR="A_0" DOMAIN="45"  VALUE="0.297515 * (1 - 0.0100525 * (x - 72.111))" /> 
+				<E VAR="A_0" DOMAIN="46"  VALUE="0.176439 * (1 - 0.0109697 * (x - 72.111))" /> 
+				<E VAR="A_0" DOMAIN="47"  VALUE="0.105775 * (1 - 0.00550385 * (x - 118.455))" /> 
+				<E VAR="A_0" DOMAIN="48"  VALUE="0.074657 * (1 - 0.00601484 * (x - 118.455))" /> 
+				<E VAR="A_0" DOMAIN="49"  VALUE="0.451411 * (1 - 0.00607834 * (x - 56.9968))" /> 
+				<E VAR="A_0" DOMAIN="50"  VALUE="0.176439 * (1 - 0 * (x - 56.9968))" /> 
+				<E VAR="A_0" DOMAIN="51"  VALUE="0.297515 * (1 - 0.0100525 * (x - 72.111))" /> 
+				<E VAR="A_0" DOMAIN="52"  VALUE="0.176439 * (1 - 0.0109697 * (x - 72.111))" /> 
+				<E VAR="A_0" DOMAIN="53"  VALUE="0.105775 * (1 - 0.00550385 * (x - 118.455))" /> 
+				<E VAR="A_0" DOMAIN="54"  VALUE="0.074657 * (1 - 0.00601484 * (x - 118.455))" /> 
+		</FUNCTION> 
+
+		<FUNCTION NAME="MaterialProperties"> 
+				<E VAR="beta" DOMAIN="0"  VALUE="607.324 * (1 + 0.000998948 * (x - 0))" /> 
+				<E VAR="beta" DOMAIN="1"  VALUE="785.484 * (1 + 0.0321563 * (x - 5.28085))" /> 
+				<E VAR="beta" DOMAIN="2"  VALUE="1108.73 * (1 + 0.0481464 * (x - 5.28085))" /> 
+				<E VAR="beta" DOMAIN="3"  VALUE="2746.11 * (1 + 0.0902024 * (x - 8.83177))" /> 
+				<E VAR="beta" DOMAIN="4"  VALUE="2943.09 * (1 + 0.0661311 * (x - 8.83177))" /> 
+				<E VAR="beta" DOMAIN="5"  VALUE="19944.6 * (1 + 0.023182 * (x - 12.3827))" /> 
+				<E VAR="beta" DOMAIN="6"  VALUE="5694.3 * (1 + 0.0131642 * (x - 12.3827))" /> 
+				<E VAR="beta" DOMAIN="7"  VALUE="19944.6 * (1 + 0.0100623 * (x - 56.5415))" /> 
+				<E VAR="beta" DOMAIN="8"  VALUE="19944.6 * (1 + 0.0181107 * (x - 56.5415))" /> 
+				<E VAR="beta" DOMAIN="9"  VALUE="49451.5 * (1 + 0.0264974 * (x - 63.5523))" /> 
+				<E VAR="beta" DOMAIN="10"  VALUE="25222.7 * (1 + 0.0106936 * (x - 63.5523))" /> 
+				<E VAR="beta" DOMAIN="11"  VALUE="9988.14 * (1 + 0.0195489 * (x - 18.6651))" /> 
+				<E VAR="beta" DOMAIN="12"  VALUE="37446.6 * (1 + 0.0328496 * (x - 18.6651))" /> 
+				<E VAR="beta" DOMAIN="13"  VALUE="1013.57 * (1 + 0.0105628 * (x - 7.37498))" /> 
+				<E VAR="beta" DOMAIN="14"  VALUE="3578.73 * (1 + 0.045855 * (x - 7.37498))" /> 
+				<E VAR="beta" DOMAIN="15"  VALUE="15669.7 * (1 + 0.0179969 * (x - 21.9429))" /> 
+				<E VAR="beta" DOMAIN="16"  VALUE="57300.7 * (1 + 0.0300034 * (x - 21.9429))" /> 
+				<E VAR="beta" DOMAIN="17"  VALUE="1126.01 * (1 + 0.015387 * (x - 11.4722))" /> 
+				<E VAR="beta" DOMAIN="18"  VALUE="2943.09 * (1 + 0.0973007 * (x - 11.4722))" /> 
+				<E VAR="beta" DOMAIN="19"  VALUE="19944.6 * (1 + 0.0233184 * (x - 15.0231))" /> 
+				<E VAR="beta" DOMAIN="20"  VALUE="5694.3 * (1 + 0.0131642 * (x - 15.0231))" /> 
+				<E VAR="beta" DOMAIN="21"  VALUE="21838.4 * (1 + 0.0122135 * (x - 59.182))" /> 
+				<E VAR="beta" DOMAIN="22"  VALUE="15669.7 * (1 + 0 * (x - 59.182))" /> 
+				<E VAR="beta" DOMAIN="23"  VALUE="63362.3 * (1 + 0 * (x - 66.1928))" /> 
+				<E VAR="beta" DOMAIN="24"  VALUE="16935.8 * (1 + 0.00841061 * (x - 66.1928))" /> 
+				<E VAR="beta" DOMAIN="25"  VALUE="2351.9 * (1 + 0.0436685 * (x - 16.9351))" /> 
+				<E VAR="beta" DOMAIN="26"  VALUE="1531.12 * (1 + 0.0297258 * (x - 16.9351))" /> 
+				<E VAR="beta" DOMAIN="27"  VALUE="2472.5 * (1 + 0 * (x - 27.861))" /> 
+				<E VAR="beta" DOMAIN="28"  VALUE="5083.74 * (1 + 0.0853638 * (x - 27.861))" /> 
+				<E VAR="beta" DOMAIN="29"  VALUE="9735.6 * (1 + 0.0434958 * (x - 29.9552))" /> 
+				<E VAR="beta" DOMAIN="30"  VALUE="10894 * (1 + 0.0403909 * (x - 29.9552))" /> 
+				<E VAR="beta" DOMAIN="31"  VALUE="25222.7 * (1 + 0.012788 * (x - 32.0493))" /> 
+				<E VAR="beta" DOMAIN="32"  VALUE="16312.9 * (1 + 0.0165927 * (x - 32.0493))" /> 
+				<E VAR="beta" DOMAIN="33"  VALUE="4984.07 * (1 + 0.0252654 * (x - 33.415))" /> 
+				<E VAR="beta" DOMAIN="34"  VALUE="2746.11 * (1 + 0.0128838 * (x - 33.415))" /> 
+				<E VAR="beta" DOMAIN="35"  VALUE="9735.6 * (1 + 0 * (x - 35.5092))" /> 
+				<E VAR="beta" DOMAIN="36"  VALUE="2637.98 * (1 + 0 * (x - 35.5092))" /> 
+				<E VAR="beta" DOMAIN="37"  VALUE="9735.6 * (1 + 0 * (x - 37.6033))" /> 
+				<E VAR="beta" DOMAIN="38"  VALUE="2709.28 * (1 + 0.00715193 * (x - 37.6033))" /> 
+				<E VAR="beta" DOMAIN="39"  VALUE="13600.4 * (1 + 0.0877522 * (x - 48.7113))" /> 
+				<E VAR="beta" DOMAIN="40"  VALUE="3028.39 * (1 + 0.0272339 * (x - 48.7113))" /> 
+				<E VAR="beta" DOMAIN="41"  VALUE="2899.1 * (1 + 0.028531 * (x - 50.8054))" /> 
+				<E VAR="beta" DOMAIN="42"  VALUE="2899.1 * (1 + 0.028531 * (x - 50.8054))" /> 
+				<E VAR="beta" DOMAIN="43"  VALUE="4056.87 * (1 + 0.00490908 * (x - 56.9968))" /> 
+				<E VAR="beta" DOMAIN="44"  VALUE="10302.9 * (1 + 0 * (x - 56.9968))" /> 
+				<E VAR="beta" DOMAIN="45"  VALUE="6783.12 * (1 + 0.00851234 * (x - 72.111))" /> 
+				<E VAR="beta" DOMAIN="46"  VALUE="10302.9 * (1 + 0.0089109 * (x - 72.111))" /> 
+				<E VAR="beta" DOMAIN="47"  VALUE="15514.2 * (1 + 0.00449122 * (x - 118.455))" /> 
+				<E VAR="beta" DOMAIN="48"  VALUE="20501.2 * (1 + 0.00492718 * (x - 118.455))" /> 
+				<E VAR="beta" DOMAIN="49"  VALUE="4056.87 * (1 + 0.00490908 * (x - 56.9968))" /> 
+				<E VAR="beta" DOMAIN="50"  VALUE="10302.9 * (1 + 0 * (x - 56.9968))" /> 
+				<E VAR="beta" DOMAIN="51"  VALUE="6783.12 * (1 + 0.00851234 * (x - 72.111))" /> 
+				<E VAR="beta" DOMAIN="52"  VALUE="10302.9 * (1 + 0.0089109 * (x - 72.111))" /> 
+				<E VAR="beta" DOMAIN="53"  VALUE="15514.2 * (1 + 0.00449122 * (x - 118.455))" /> 
+				<E VAR="beta" DOMAIN="54"  VALUE="20501.2 * (1 + 0.00492718 * (x - 118.455))" /> 
+		</FUNCTION> 
+
+		<FUNCTION NAME="Viscoelasticity"> 
+				<E VAR="gamma" DOMAIN="0"  VALUE="0.101056 * (1 + 0.000757796 * (x - 0))" /> 
+				<E VAR="gamma" DOMAIN="1"  VALUE="0.122537 * (1 + 0.0239901 * (x - 5.28085))" /> 
+				<E VAR="gamma" DOMAIN="2"  VALUE="0.315623 * (1 + 0.0359878 * (x - 5.28085))" /> 
+				<E VAR="gamma" DOMAIN="3"  VALUE="0.622746 * (1 + 0.0768849 * (x - 8.83177))" /> 
+				<E VAR="gamma" DOMAIN="4"  VALUE="3.94947 * (1 + 0.0615193 * (x - 8.83177))" /> 
+				<E VAR="gamma" DOMAIN="5"  VALUE="19.1434 * (1 + 0.0216002 * (x - 12.3827))" /> 
+				<E VAR="gamma" DOMAIN="6"  VALUE="2.4814 * (1 + 0.0125444 * (x - 12.3827))" /> 
+				<E VAR="gamma" DOMAIN="7"  VALUE="19.1434 * (1 + 0.0093781 * (x - 56.5415))" /> 
+				<E VAR="gamma" DOMAIN="8"  VALUE="19.1434 * (1 + 0.0168833 * (x - 56.5415))" /> 
+				<E VAR="gamma" DOMAIN="9"  VALUE="43.1381 * (1 + 0.0226842 * (x - 63.5523))" /> 
+				<E VAR="gamma" DOMAIN="10"  VALUE="23.7821 * (1 + 0.00978336 * (x - 63.5523))" /> 
+				<E VAR="gamma" DOMAIN="11"  VALUE="9.97146 * (1 + 0.0186967 * (x - 18.6651))" /> 
+				<E VAR="gamma" DOMAIN="12"  VALUE="33.9094 * (1 + 0.0292111 * (x - 18.6651))" /> 
+				<E VAR="gamma" DOMAIN="13"  VALUE="0.147804 * (1 + 0.00776097 * (x - 7.37498))" /> 
+				<E VAR="gamma" DOMAIN="14"  VALUE="4.63763 * (1 + 0.0434436 * (x - 7.37498))" /> 
+				<E VAR="gamma" DOMAIN="15"  VALUE="15.2644 * (1 + 0.0170182 * (x - 21.9429))" /> 
+				<E VAR="gamma" DOMAIN="16"  VALUE="48.855 * (1 + 0.0257002 * (x - 21.9429))" /> 
+				<E VAR="gamma" DOMAIN="17"  VALUE="0.159601 * (1 + 0.0113494 * (x - 11.4722))" /> 
+				<E VAR="gamma" DOMAIN="18"  VALUE="0.658244 * (1 + 0.0843765 * (x - 11.4722))" /> 
+				<E VAR="gamma" DOMAIN="19"  VALUE="19.1434 * (1 + 0.0217273 * (x - 15.0231))" /> 
+				<E VAR="gamma" DOMAIN="20"  VALUE="2.4814 * (1 + 0.0125444 * (x - 15.0231))" /> 
+				<E VAR="gamma" DOMAIN="21"  VALUE="20.8272 * (1 + 0.0113055 * (x - 59.182))" /> 
+				<E VAR="gamma" DOMAIN="22"  VALUE="15.2644 * (1 + 0 * (x - 59.182))" /> 
+				<E VAR="gamma" DOMAIN="23"  VALUE="53.1224 * (1 + 0 * (x - 66.1928))" /> 
+				<E VAR="gamma" DOMAIN="24"  VALUE="16.4242 * (1 + 0.00791928 * (x - 66.1928))" /> 
+				<E VAR="gamma" DOMAIN="25"  VALUE="0.27576 * (1 + 0.0367086 * (x - 16.9351))" /> 
+				<E VAR="gamma" DOMAIN="26"  VALUE="0.199773 * (1 + 0.023328 * (x - 16.9351))" /> 
+				<E VAR="gamma" DOMAIN="27"  VALUE="0.286678 * (1 + 0 * (x - 27.861))" /> 
+				<E VAR="gamma" DOMAIN="28"  VALUE="0.523727 * (1 + 0.0779896 * (x - 27.861))" /> 
+				<E VAR="gamma" DOMAIN="29"  VALUE="0.955923 * (1 + 0.0412831 * (x - 29.9552))" /> 
+				<E VAR="gamma" DOMAIN="30"  VALUE="4.5092 * (1 + 0.0385424 * (x - 29.9552))" /> 
+				<E VAR="gamma" DOMAIN="31"  VALUE="23.7821 * (1 + 0.0117014 * (x - 32.0493))" /> 
+				<E VAR="gamma" DOMAIN="32"  VALUE="15.8547 * (1 + 0.0156495 * (x - 32.0493))" /> 
+				<E VAR="gamma" DOMAIN="33"  VALUE="1.02913 * (1 + 0.0229568 * (x - 33.415))" /> 
+				<E VAR="gamma" DOMAIN="34"  VALUE="0.311373 * (1 + 0.0102973 * (x - 33.415))" /> 
+				<E VAR="gamma" DOMAIN="35"  VALUE="4.77961 * (1 + 0 * (x - 35.5092))" /> 
+				<E VAR="gamma" DOMAIN="36"  VALUE="0.301623 * (1 + 0 * (x - 35.5092))" /> 
+				<E VAR="gamma" DOMAIN="37"  VALUE="4.77961 * (1 + 0 * (x - 37.6033))" /> 
+				<E VAR="gamma" DOMAIN="38"  VALUE="0.308053 * (1 + 0.00576314 * (x - 37.6033))" /> 
+				<E VAR="gamma" DOMAIN="39"  VALUE="5.56298 * (1 + 0.0835283 * (x - 48.7113))" /> 
+				<E VAR="gamma" DOMAIN="40"  VALUE="0.336808 * (1 + 0.022312 * (x - 48.7113))" /> 
+				<E VAR="gamma" DOMAIN="41"  VALUE="1.16503 * (1 + 0.026417 * (x - 50.8054))" /> 
+				<E VAR="gamma" DOMAIN="42"  VALUE="1.16503 * (1 + 0.026417 * (x - 50.8054))" /> 
+				<E VAR="gamma" DOMAIN="43"  VALUE="3.97455 * (1 + 0.00462828 * (x - 56.9968))" /> 
+				<E VAR="gamma" DOMAIN="44"  VALUE="19.3727 * (1 + 0 * (x - 56.9968))" /> 
+				<E VAR="gamma" DOMAIN="45"  VALUE="13.0715 * (1 + 0.00810736 * (x - 72.111))" /> 
+				<E VAR="gamma" DOMAIN="46"  VALUE="19.3727 * (1 + 0.00829965 * (x - 72.111))" /> 
+				<E VAR="gamma" DOMAIN="47"  VALUE="28.1874 * (1 + 0.00403783 * (x - 118.455))" /> 
+				<E VAR="gamma" DOMAIN="48"  VALUE="36.081 * (1 + 0.00430661 * (x - 118.455))" /> 
+				<E VAR="gamma" DOMAIN="49"  VALUE="3.97455 * (1 + 0.00462828 * (x - 56.9968))" /> 
+				<E VAR="gamma" DOMAIN="50"  VALUE="19.3727 * (1 + 0 * (x - 56.9968))" /> 
+				<E VAR="gamma" DOMAIN="51"  VALUE="13.0715 * (1 + 0.00810736 * (x - 72.111))" /> 
+				<E VAR="gamma" DOMAIN="52"  VALUE="19.3727 * (1 + 0.00829965 * (x - 72.111))" /> 
+				<E VAR="gamma" DOMAIN="53"  VALUE="28.1874 * (1 + 0.00403783 * (x - 118.455))" /> 
+				<E VAR="gamma" DOMAIN="54"  VALUE="36.081 * (1 + 0.00430661 * (x - 118.455))" /> 
+		</FUNCTION> 
+
+		<FUNCTION NAME="StrainStiffening"> 
+				<E VAR="alpha" DOMAIN="0"  VALUE="0.652318 * (1 + 0.000108995 * (x - 0))" /> 
+				<E VAR="alpha" DOMAIN="1"  VALUE="0.672107 * (1 + 0.00417914 * (x - 5.28085))" /> 
+				<E VAR="alpha" DOMAIN="2"  VALUE="0.704137 * (1 + 0.00798499 * (x - 5.28085))" /> 
+				<E VAR="alpha" DOMAIN="3"  VALUE="0.830194 * (1 + 0.0246143 * (x - 8.83177))" /> 
+				<E VAR="alpha" DOMAIN="4"  VALUE="0.843085 * (1 + 0.025518 * (x - 8.83177))" /> 
+				<E VAR="alpha" DOMAIN="5"  VALUE="1.44115 * (1 + 0.0108016 * (x - 12.3827))" /> 
+				<E VAR="alpha" DOMAIN="6"  VALUE="0.951059 * (1 + 0.00540381 * (x - 12.3827))" /> 
+				<E VAR="alpha" DOMAIN="7"  VALUE="1.44115 * (1 + 0.00441293 * (x - 56.5415))" /> 
+				<E VAR="alpha" DOMAIN="8"  VALUE="1.44115 * (1 + 0.00749418 * (x - 56.5415))" /> 
+				<E VAR="alpha" DOMAIN="9"  VALUE="2.1304 * (1 + 0.0134278 * (x - 63.5523))" /> 
+				<E VAR="alpha" DOMAIN="10"  VALUE="1.58376 * (1 + 0.00478682 * (x - 63.5523))" /> 
+				<E VAR="alpha" DOMAIN="11"  VALUE="1.1245 * (1 + 0.00781782 * (x - 18.6651))" /> 
+				<E VAR="alpha" DOMAIN="12"  VALUE="1.8765 * (1 + 0.0189617 * (x - 18.6651))" /> 
+				<E VAR="alpha" DOMAIN="13"  VALUE="0.695122 * (1 + 0.00152865 * (x - 7.37498))" /> 
+				<E VAR="alpha" DOMAIN="14"  VALUE="0.882634 * (1 + 0.019131 * (x - 7.37498))" /> 
+				<E VAR="alpha" DOMAIN="15"  VALUE="1.31487 * (1 + 0.00786518 * (x - 21.9429))" /> 
+				<E VAR="alpha" DOMAIN="16"  VALUE="2.2839 * (1 + 0.0176765 * (x - 21.9429))" /> 
+				<E VAR="alpha" DOMAIN="17"  VALUE="0.705742 * (1 + 0.00240954 * (x - 11.4722))" /> 
+				<E VAR="alpha" DOMAIN="18"  VALUE="0.843085 * (1 + 0.0277847 * (x - 11.4722))" /> 
+				<E VAR="alpha" DOMAIN="19"  VALUE="1.44115 * (1 + 0.0108651 * (x - 15.0231))" /> 
+				<E VAR="alpha" DOMAIN="20"  VALUE="0.951059 * (1 + 0.00540381 * (x - 15.0231))" /> 
+				<E VAR="alpha" DOMAIN="21"  VALUE="1.49379 * (1 + 0.0056052 * (x - 59.182))" /> 
+				<E VAR="alpha" DOMAIN="22"  VALUE="1.31487 * (1 + 0 * (x - 59.182))" /> 
+				<E VAR="alpha" DOMAIN="23"  VALUE="2.39709 * (1 + 0 * (x - 66.1928))" /> 
+				<E VAR="alpha" DOMAIN="24"  VALUE="1.35349 * (1 + 0.00339129 * (x - 66.1928))" /> 
+				<E VAR="alpha" DOMAIN="25"  VALUE="0.803302 * (1 + 0.0116738 * (x - 16.9351))" /> 
+				<E VAR="alpha" DOMAIN="26"  VALUE="0.741081 * (1 + 0.00645763 * (x - 16.9351))" /> 
+				<E VAR="alpha" DOMAIN="27"  VALUE="0.811697 * (1 + 0 * (x - 27.861))" /> 
+				<E VAR="alpha" DOMAIN="28"  VALUE="0.966972 * (1 + 0.0261746 * (x - 27.861))" /> 
+				<E VAR="alpha" DOMAIN="29"  VALUE="1.18143 * (1 + 0.0154578 * (x - 29.9552))" /> 
+				<E VAR="alpha" DOMAIN="30"  VALUE="1.15716 * (1 + 0.0156552 * (x - 29.9552))" /> 
+				<E VAR="alpha" DOMAIN="31"  VALUE="1.58376 * (1 + 0.00548537 * (x - 32.0493))" /> 
+				<E VAR="alpha" DOMAIN="32"  VALUE="1.33463 * (1 + 0.00649839 * (x - 32.0493))" /> 
+				<E VAR="alpha" DOMAIN="33"  VALUE="0.961706 * (1 + 0.00759174 * (x - 33.415))" /> 
+				<E VAR="alpha" DOMAIN="34"  VALUE="0.830194 * (1 + 0.00287182 * (x - 33.415))" /> 
+				<E VAR="alpha" DOMAIN="35"  VALUE="1.18143 * (1 + 0 * (x - 35.5092))" /> 
+				<E VAR="alpha" DOMAIN="36"  VALUE="0.822971 * (1 + 0 * (x - 35.5092))" /> 
+				<E VAR="alpha" DOMAIN="37"  VALUE="1.18143 * (1 + 0 * (x - 37.6033))" /> 
+				<E VAR="alpha" DOMAIN="38"  VALUE="0.827746 * (1 + 0.00163791 * (x - 37.6033))" /> 
+				<E VAR="alpha" DOMAIN="39"  VALUE="1.24914 * (1 + 0.0403097 * (x - 48.7113))" /> 
+				<E VAR="alpha" DOMAIN="40"  VALUE="0.848567 * (1 + 0.0064276 * (x - 48.7113))" /> 
+				<E VAR="alpha" DOMAIN="41"  VALUE="0.999777 * (1 + 0.00907743 * (x - 50.8054))" /> 
+				<E VAR="alpha" DOMAIN="42"  VALUE="0.999777 * (1 + 0.00907743 * (x - 50.8054))" /> 
+				<E VAR="alpha" DOMAIN="43"  VALUE="1.10749 * (1 + 0.00163544 * (x - 56.9968))" /> 
+				<E VAR="alpha" DOMAIN="44"  VALUE="1.44839 * (1 + 0 * (x - 56.9968))" /> 
+				<E VAR="alpha" DOMAIN="45"  VALUE="1.23928 * (1 + 0.00371757 * (x - 72.111))" /> 
+				<E VAR="alpha" DOMAIN="46"  VALUE="1.44839 * (1 + 0.00368198 * (x - 72.111))" /> 
+				<E VAR="alpha" DOMAIN="47"  VALUE="1.71355 * (1 + 0.00204538 * (x - 118.455))" /> 
+				<E VAR="alpha" DOMAIN="48"  VALUE="1.93709 * (1 + 0.00238068 * (x - 118.455))" /> 
+				<E VAR="alpha" DOMAIN="49"  VALUE="1.10749 * (1 + 0.00163544 * (x - 56.9968))" /> 
+				<E VAR="alpha" DOMAIN="50"  VALUE="1.44839 * (1 + 0 * (x - 56.9968))" /> 
+				<E VAR="alpha" DOMAIN="51"  VALUE="1.23928 * (1 + 0.00371757 * (x - 72.111))" /> 
+				<E VAR="alpha" DOMAIN="52"  VALUE="1.44839 * (1 + 0.00368198 * (x - 72.111))" /> 
+				<E VAR="alpha" DOMAIN="53"  VALUE="1.71355 * (1 + 0.00204538 * (x - 118.455))" /> 
+				<E VAR="alpha" DOMAIN="54"  VALUE="1.93709 * (1 + 0.00238068 * (x - 118.455))" /> 
+		</FUNCTION> 
+
+</CONDITIONS> 
+
+</NEKTAR>
