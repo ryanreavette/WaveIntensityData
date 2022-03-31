@@ -22,4 +22,4 @@ Please cite both [1] and [2] if you use this data for further analysis.
 
 [1] Reavette RM, Sherwin SJ, Tang MX, Weinberg PD. Wave Intensity Analysis Combined With Machine Learning can Detect Impaired Stroke Volume in Simulations of Heart Failure. Front Bioeng Biotechnol. 2021 Dec 24;9:737055. doi: 10.3389/fbioe.2021.737055. PMID: 35004634; PMCID: PMC8740183.
 
-[2] Cantwell, CD, Moxey D, Comerford A, Bolis A, Rocco G, Mengaldo G, De Grazia D, Yakovlev S, Lombard JE, Ekelschot D, Jordi B, Xu H, Mohamied Y, and Sherwin SJ. Nektar++: An open-source spectral/hp element framework. Comput. Phys. Commun. 192:205–219, 2015.
+[2] Cantwell CD, Moxey D, Comerford A, Bolis A, Rocco G, Mengaldo G, De Grazia D, Yakovlev S, Lombard JE, Ekelschot D, Jordi B, Xu H, Mohamied Y, and Sherwin SJ. Nektar++: An open-source spectral/hp element framework. Comput. Phys. Commun. 192:205–219, 2015.
